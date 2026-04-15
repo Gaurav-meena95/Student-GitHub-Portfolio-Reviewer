@@ -16,7 +16,7 @@ if st.button("Analyze Portfolio"):
             try:
                 # IMPORTANT: We will change this URL in Phase 4!
                 response = requests.post(
-                    f"http://127.0.0.1:8000/review?username={username}"
+                    f"http://https://github-reviewer-api-rh26.onrender.com?username={username}"
                 )
 
                 if response.status_code == 200:
